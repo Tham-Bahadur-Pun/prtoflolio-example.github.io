@@ -1,0 +1,175 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+* {
+  --primary-color: #ffe58f;
+  --primary-dark-color: #e0c467;
+  --color-white: white;
+  --secondary-color: #646a8f;
+}
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: var(--primary-color) !important;
+}
+li {
+  margin-left: 1rem;
+  font-size: 1.1rem;
+}
+p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+/* header */
+.nav-link:hover {
+  color: var(--color-white) !important;
+}
+.submit-form,
+.phone-no {
+  background-color: var(--primary-dark-color) !important;
+  color: var(--color-white) !important;
+  border-color: var(--primary-dark-color) !important;
+}
+.phone-no:hover,
+.submit-form:hover {
+  background-color: #a78a34 !important;
+  border-color: #a78a34 !important;
+  transition: background-color 500ms ease-in;
+  -webkit-transition: background-color 500ms ease-in;
+  -moz-transition: background-color 500ms ease-in;
+  -ms-transition: background-color 500ms ease-in;
+  -o-transition: background-color 500ms ease-in;
+}
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+/* home */
+.namaste {
+  color: var(--secondary-color);
+  font-size: 4rem;
+}
+.btn-success {
+  background-color: var(--secondary-color) !important;
+}
+.btn-success:hover {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  color: var(--secondary-color) !important;
+  transition: background-color 500ms ease-in;
+  -webkit-transition: background-color 500ms ease-in;
+  -moz-transition: background-color 500ms ease-in;
+  -ms-transition: background-color 500ms ease-in;
+  -o-transition: background-color 500ms ease-in;
+}
+#home {
+  background: url("../images/profile3.jpg") no-repeat center;
+  background-color: #000;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+}
+.info {
+  height: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: flex-start;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* about */
+.sub-title {
+  color: #515780;
+}
+.border-bottom {
+  border-color: var(--primary-dark-color) !important;
+}
+.btn-danger {
+  background-color: var(--secondary-color) !important;
+  border-color: var(--secondary-color) !important;
+}
+.btn-danger:hover {
+  background-color: var(--primary-color) !important;
+  border-color: var(--primary-color) !important;
+  color: var(--secondary-color) !important;
+  transition: background-color 500ms ease-in;
+  -webkit-transition: background-color 500ms ease-in;
+  -moz-transition: background-color 500ms ease-in;
+  -ms-transition: background-color 500ms ease-in;
+  -o-transition: background-color 500ms ease-in;
+}
+/* academic */
+.academic {
+  margin: 5rem auto;
+  color: var(--primary-dark-color);
+}
+.academic,
+#contact {
+  background: linear-gradient(153deg, var(--secondary-color), #455add);
+  background-size: 400% 400%;
+
+  -webkit-animation: academic 0s ease infinite;
+  animation: academic 0s ease infinite;
+}
+
+@-webkit-keyframes academic {
+  0% {
+    background-position: 2% 0%;
+  }
+  50% {
+    background-position: 99% 100%;
+  }
+  100% {
+    background-position: 2% 0%;
+  }
+}
+@keyframes academic {
+  0% {
+    background-position: 2% 0%;
+  }
+  50% {
+    background-position: 99% 100%;
+  }
+  100% {
+    background-position: 2% 0%;
+  }
+}
+/* work experience */
+.icon {
+  font-size: 3rem;
+  color: var(--primary-dark-color);
+  margin-bottom: 0.8rem;
+}
+.progress {
+  background-color: var(--primary-dark-color);
+}
+.progress-bar {
+  background-color: #3d4aa1;
+}
+.ex-me {
+  margin-top: 35px;
+}
+#work-experience {
+  color: #293061;
+}
+/* contact */
+#contact {
+  color: var(--primary-dark-color);
+}
+/* footer */
+#footer {
+  background-color: #9b885b;
+}
